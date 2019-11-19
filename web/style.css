@@ -1,0 +1,114 @@
+body {
+    background-color: #990909;
+    font-size: 18px;
+}
+
+.logo {
+    letter-spacing: 2px;
+    opacity: .7;
+    text-align: center;
+    color: #ffffff;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.logo p {
+    margin: 0;
+}
+
+.logo__gradient {
+    opacity: .7;
+    margin: 0 auto;
+    width: 500px;
+    height: 1px;
+    background-image: linear-gradient(left, transparent 0%, #ffffff 30%, #ffffff 70%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, transparent 0%, #ffffff 30%, #ffffff 70%, transparent 100%);
+}
+
+.menu {
+    background-color: #000000;
+    transition: background-color 0.2s linear;
+}
+
+.menu__nav:hover {
+    border: 2px solid #ffffffbd;
+    color: #e95b11;
+}
+
+.menu__nav {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 5%;
+    padding-left: 8%;
+}
+
+.menu__nav p {
+    padding: 0;
+    margin: 0;
+}
+
+.menu__nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu__nav img {
+    width: 150px;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container__text {
+    color: #ffffff;
+    max-width: 1000px;
+}
+
+.container__right :first-child {
+    text-align: center;
+    background-color: #bdbdbd;
+    margin-top: 0;
+}
+
+.container__right {
+    background-color: #e3dddd;
+    width: 15%;
+    padding-left: 3px;
+}
+
+.container__left {
+    width: 20%;
+    background-color: #7d0909;
+}
+
+.container__navlist a {
+    color: #e95b11;
+}
+
+.container__navlist li {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.container__navlist a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container__right hr {
+    text-align: center;
+    width: 80px;
+    height: 0.5px;
+    color: #9a9a9a;
+}
+
+.siteFooter {
+    background-color: #e95b11;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
